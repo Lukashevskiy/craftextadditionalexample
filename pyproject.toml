@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "craftextadditionalexample"
+version = "0.1.0"
+description = ""
+authors = ["Dmitriy <dim4ik-super-klass@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+craftext = { version = "0.2.2", extras = ["cuda12"] }
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
